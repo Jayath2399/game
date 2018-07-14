@@ -1,0 +1,65 @@
+body{
+    margin:0px 260px;
+}
+#bg{
+    width:400px;
+    height:300px;
+    position:relative;
+}
+
+#car1{
+    position:absolute;
+    left:300px;
+    top:0px;
+    
+    z-index:10px;
+}
+
+#car5{
+    position:absolute;
+    left:900px;
+    top:0px;
+    
+    z-index:10px;
+}
+#car2{
+    position:absolute;
+    left:450px;
+    top:0px;
+
+}
+
+#car3{
+    position:absolute;
+    left:600px;
+    top:0px;
+
+}
+.car-img{
+    width: 80px;
+    height: 120px;
+}
+
+#car4{
+    position:absolute;
+    left:750px;
+    top:0px;
+
+}
+#player{
+    height:100px;
+    width:80px;
+    /* border-radius: 50px; */
+    
+    position:absolute;
+    left:600px;
+    bottom:-135px;
+}
+#s1{
+    position: absolute;
+    right: 0;
+}
+#s2{
+    position: absolute;
+    left: 0;
+}

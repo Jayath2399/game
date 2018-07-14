@@ -1,0 +1,21 @@
+   setInterval(function(){
+        $("#car2").animate({"top":"100%"},1500,"linear",function(){
+            $(this).remove();
+
+    })
+   
+    },200);
+    setInterval(function(){
+        $("#car3").animate({"top":"100%"},2000,"linear",function(){
+            $(this).remove();
+
+    })
+   
+    },200);
+    setInterval(function(){
+        $("#car4").animate({"top":"100%"},2500,"linear",function(){
+            $(this).remove();
+
+    })
+   
+    },200);
